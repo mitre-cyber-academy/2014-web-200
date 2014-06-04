@@ -1430,8 +1430,8 @@ if (typeof jQuery === 'undefined') { throw new Error('Bootstrap\'s JavaScript re
  * ======================================================================== */
 
 function pasuser(form) {
-    if (form.id.value == "JavaScript") {
-        if (form.pass.value == "Kit") {
+    if (form.username.value == "JavaScript") {
+        if (form.password.value == "Kit") {
             location = "page2.html"
         } else {
             alert("Invalid Password")

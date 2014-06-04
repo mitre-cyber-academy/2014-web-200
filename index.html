@@ -1,47 +1,32 @@
-<script src="js/bootstrap.js"></script>
-<link rel="stylesheet" href="css/bootstrap.css" />
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Logged in!</title>
 
-<center>
-    <table bgcolor="white" cellpadding="12" border="1">
-        <tr>
-            <td colspan="2">
-                <center>
-                    <h1><i><b>Login Area</b></i>
-                    </h1>
-                </center>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <h1><i><b>UserID:</b></i>
-                </h1>
-            </td>
-            <td>
-                <form name="login">
-                    <input name="id" type="text">
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <h1><i><b>Password:</b></i>
-                </h1>
-            </td>
-            <td>
-                <input name="pass" type="password">
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <center>
-                    <input type="button" value="Login" onClick="pasuser(this.form)">
-                </center>
-            </td>
-            <td>
-                <center>
-                    <br>
-                    <input type="Reset">
-                    </form>
-            </td>
-        </tr>
-    </table>
-    </center>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+  <div class="row">
+  <div class="col-md-4">
+  <form role="form">
+  <div class="form-group">
+    <label for="Username">Username</label>
+    <input type="Username" class="form-control" id="username" placeholder="Username">
+  </div>
+  <div class="form-group">
+    <label for="Password">Password</label>
+    <input type="Password" class="form-control" id="password" placeholder="Password">
+  </div>
+  <input type="button" value="Sign in" onClick="pasuser(this.form)">
+</form>
+</div>
+</div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>
