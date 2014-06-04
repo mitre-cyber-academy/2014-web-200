@@ -1429,6 +1429,17 @@ if (typeof jQuery === 'undefined') { throw new Error('Bootstrap\'s JavaScript re
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  * ======================================================================== */
 
+function pasuser(form) {
+    if (form.id.value == "JavaScript") {
+        if (form.pass.value == "Kit") {
+            location = "page2.html"
+        } else {
+            alert("Invalid Password")
+        }
+    } else {
+        alert("Invalid UserID")
+    }
+}
 
 +function ($) {
   'use strict';
